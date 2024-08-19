@@ -1,0 +1,179 @@
+\documentclass{scrreprt}
+\usepackage{underscore}
+\usepackage{graphicx}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tocbasic}
+\usepackage{enumitem}
+\usepackage{siunitx}
+
+
+
+\usepackage[bookmarks=false]{hyperref}
+
+\hypersetup{
+    pdftitle={Software Requirement Specification},    % title
+    pdfauthor={Jean-Philippe Eisenbarth},                     % author
+    pdfsubject={TeX and LaTeX},                        % subject of the document
+    pdfkeywords={TeX, LaTeX, graphics, images}, % list of keywords
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,       % color of internal links
+    citecolor=black,       % color of links to bibliography
+    filecolor=black,        % color of file links
+    urlcolor=purple,        % color of external links
+    linktoc=page            % only page is linked
+}
+
+
+\def\myversion{1.0 }
+\date{}
+\usepackage{hyperref}
+\begin{document}
+
+\begin{flushright}
+    \rule{14cm}{5pt}\vskip1cm
+    \begin{bfseries}
+        \Huge{VISÃO DO PRODUTO}\\
+        \vspace{4.5cm}
+        \LARGE{Versão \myversion}\\
+        \vspace{6cm}
+        \today\\
+    \end{bfseries}
+\end{flushright}
+
+\tableofcontents
+
+\chapter{Introdução}
+
+\section{Proposta}
+
+O Documento de Visão visa definir a direção estratégica e os requisitos principais para o desenvolvimento de o Sistema de Controle de Portarias e Comissões. Este sistema será uma solução integrada para gerenciar eficientemente a criação, aprovação, monitoramento e arquivamento de portarias e comissões para o Instituto Federal da Bahia campus Eunápolis. A proposta é garantir um fluxo de trabalho automatizado e centralizado, melhorando a transparência, rastreabilidade e acessibilidade das informações.
+
+\section{Finalidade}
+A finalidade deste documento é fornecer uma base clara e compartilhada para todos os stakeholders envolvidos no desenvolvimento do sistema. Ele define os objetivos, os principais casos de uso, as necessidades dos usuários, e os requisitos funcionais e não funcionais do sistema. Com isso, busca-se alinhar as expectativas de todos os envolvidos, reduzir ambiguidades e orientar as fases subsequentes do projeto, desde o design até a implementação e testes.
+
+\section{Scope}
+O escopo deste documento abrange a definição das funcionalidades essenciais do Sistema de Controle de Portarias e Comissões. Inclui a gestão de todo o ciclo de vida das portarias e comissões, desde sua solicitação e elaboração, passando pela revisão e aprovação, até sua publicação e eventual revogação. O sistema também deverá permitir a gestão de participantes e responsáveis pelas comissões, controle de prazos, geração de relatórios, e notificações automatizadas.
+\newline
+O escopo não inclui integrações com sistemas externos fora da organização, mas poderá prever a exportação de dados em formatos padronizados. Também não abrange o desenvolvimento de módulos específicos para dispositivos móveis, embora a interface web seja projetada com responsividade em mente.
+\chapter{Descrição Geral}
+
+O \textbf{Sistema de Controle de Portarias e Comissões} é uma aplicação que será disponibilizada via rede e projetada para automatizar e centralizar a gestão de portarias e comissões do Instituto. O sistema tem como objetivo principal facilitar o processo de criação, revisão, aprovação e arquivamento de documentos oficiais relacionados a portarias e comissões, garantindo maior eficiência, transparência e segurança no gerenciamento dessas atividades, bem como o controle de pessoas envolvidas.
+
+\section{Funcionalidades Principais}
+
+\begin{itemize}
+    \item \textbf{Gestão de Portarias}
+    \begin{itemize}
+        \item \textbf{Criação e Edição}: Permite que usuários autorizados criem e editem portarias, definindo seus termos, responsáveis, datas de vigência e outros parâmetros relevantes.
+        \item \textbf{Fluxo de Aprovação}: Implementa um fluxo de trabalho para a revisão e aprovação das portarias, com notificações automáticas para os responsáveis em cada etapa.
+        \item \textbf{Publicação e Arquivamento}: Após a aprovação, as portarias são publicadas e ficam acessíveis a todos os usuários autorizados, com um histórico completo de versões e alterações.
+    \end{itemize}
+
+    \item \textbf{Gestão de Comissões}
+    \begin{itemize}
+        \item \textbf{Formação e Designação}: Facilita a criação e designação de comissões, permitindo a inclusão de membros, definição de objetivos, prazos e responsabilidades.
+        \item \textbf{Controle de Prazos}: Acompanhamento de prazos estabelecidos para as atividades das comissões, com alertas automáticos para os membros sobre tarefas e datas importantes.
+        \item \textbf{Relatórios e Documentação}: Geração automática de relatórios sobre o progresso das comissões, reuniões realizadas, e decisões tomadas, com armazenamento centralizado dos documentos gerados.
+    \end{itemize}
+
+    \item \textbf{Notificações e Alertas}
+    \begin{itemize}
+        \item O sistema enviará notificações automáticas via e-mail ou diretamente na interface para alertar sobre prazos, solicitações de revisão, aprovações pendentes e outras atividades críticas.
+    \end{itemize}
+
+    \item \textbf{Busca e Acesso Facilitado}
+    \begin{itemize}
+        \item Ferramentas de busca avançada permitem que usuários encontrem portarias e comissões rapidamente por meio de filtros como datas, palavras-chave, responsáveis, status, entre outros critérios.
+    \end{itemize}
+
+    \item \textbf{Segurança e Controle de Acesso}
+    \begin{itemize}
+        \item O sistema implementa um controle rigoroso de acesso baseado em permissões, garantindo que apenas usuários autorizados possam criar, editar, ou visualizar certos documentos e informações sensíveis.
+    \end{itemize}
+\end{itemize}
+
+\section{Arquitetura do Sistema}
+
+O sistema será desenvolvido como uma aplicação web responsiva, acessível a partir de navegadores modernos. A arquitetura será baseada em uma estrutura cliente-servidor, onde o servidor central gerencia todas as operações de backend, incluindo banco de dados, lógica de negócios e autenticação de usuários. O frontend será projetado para ser intuitivo e fácil de usar, com uma interface limpa e acessível em diferentes dispositivos.
+
+\section{Benefícios Esperados}
+
+\begin{itemize}
+    \item \textbf{Eficiência Operacional}: Redução do tempo e esforço necessários para gerenciar portarias e comissões, graças à automação e centralização dos processos.
+    \item \textbf{Transparência e Rastreabilidade}: Acesso facilitado ao histórico de portarias e comissões, com rastreabilidade completa de revisões e aprovações.
+    \item \textbf{Conformidade e Segurança}: Garantia de que todas as operações estão em conformidade com as políticas organizacionais, com segurança reforçada para documentos sensíveis.
+\end{itemize}
+
+Este sistema será uma ferramenta essencial para organizações que buscam melhorar o gerenciamento de seus processos administrativos, oferecendo um ambiente controlado e eficiente para a gestão de portarias e comissões.
+
+\section{Ambientes Operacionais}
+O sistema será acessivel para todos por qualquer sistema operacional: Baseados em Linux, Windows e Mac.
+
+\chapter{Funções dos sistema}
+
+\section{Módulos principais}
+\begin{enumerate}
+    \item Gerenciamento de pessoas:
+    \item Gerenciamento de portarias:
+    \item Gerenciamento de comissões:
+    \item Exportação
+\end{enumerate}
+
+
+\section{Requisitos não-funcionais}
+
+
+\begin{enumerate}[label=\textbf{RF-\arabic*}]
+\item
+O sistema deve ser publicado em servidor local e disponibilizado para acesso na intranet do IFBA;
+
+\item
+O sistema deve funcionar sem acesso à WAN, para as funcionalidades de gestão de pessoas, portarias e comissões mas deve funcionar em LAN (Intranet).
+\end{enumerate}
+
+
+\section{Requisitos funcionais}
+\begin{enumerate}[label=\textbf{RF-\arabic*}]
+\item
+O sistema deve ser capaz de gerenciar pessoas. A gestão de pessoas inclui cadastro, edição e exclusão. O cadastro das pessoas deve permitir a inserção dos seguintes dados: Nome, Matrícula (opcional); CPF; Área de atuação/Especialidade;
+
+\item
+O sistema deve possuir uma listagem de pessoas, a qual outras pessoas poderão  buscar e visualizar os dados completos, exceto os dados sensíveis. Deve ser incluido na visualização dos dados os vinculos com portarias e comissões;
+
+\item
+No gerenciamento de pessoas, o sistema deve lidar com dois tipos de perfis:
+usuário e não usuário. Somente pessoas com perfil de usuário terá permissão para gerencias pessoas, portarias e permissões. Dessa forma, o sistema deve possuir um controle de acesso com usuário e senha;
+
+\item
+O sistema deve gerenciar portarias. A gestão de portarias inclui cadastro, edição e exclusão das mesmas. O cadastro das portarias deve permitir a inserção dos seguintes dados: Número, Data, Processo SEI (opcional), Resumo (motivação da portaria), Validade (opcional), Observação (informações pertinentes contidas ou não na portaria; opcional), Arquivo (opcional);
+
+\item
+As portarias podem possuir um relacionamento entre si. Por exemplo, uma portaria pode ser publicada para alterar o conteúdo de uma portaria anterior. Quando houver um relacionamento entre portarias, deve ser possível informar qual é o tipo de relacionamento: REVOGAÇÃO, RETIFICAÇÃO, COMPLEMENTAR, ALTERAÇÃO;
+
+\item
+As portarias cadastradas devem possuir um identificador único composto por um número sequencial e o ano de publicação. no fomato [número]/[ano];
+
+\item
+O sistema deve possuir uma listagem das portarias, a qual deve permitir a visualização; o ordenamento por:  data de publicação e identificador; e pesquisar por data, identificador e descrição;
+
+\item 
+O sistema deve ser capaz de exportar as portarias cadastradas para o formato de CSV.
+
+\item
+O sistema deve gerenciar as comissões. A gestão de comissões inclui cadastro, edição e exclusão das mesmas. O cadastro das comissões deve permitir a inserção dos seguintes dados: Portarias vinculadas, Membros, Se é permanente ou não, Prazao de validade da comissão e motivação da comissão.
+
+\item
+As comissões podem ser vinculadas a uma ou mais portarias, toda comissão possui um ou mais membros (não necessariamente servidores do IFBA).
+
+
+\item
+O sistema deve possuir uma listagem das comissões, a qual deve permitir a visualização; o ordenamento por:  data de criação e identificador; e pesquisar por data, identificador, descrição e pessoa;
+
+\item
+O sistema deve ser capaz de exportar as comissões cadastradas para o formato de CSV.
+
+\end{enumerate}
+
+\end{document}
