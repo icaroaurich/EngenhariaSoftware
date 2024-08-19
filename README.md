@@ -1,4 +1,4 @@
-# Sistema de Constrole de Portarias e Comissões
+# Sistema de Controle de Portarias e Comissões
 
 Esse projeto contem os aquivos de desenvolvimento do Sistema de controle de Portaria e Comissões para o Instituto Federal da Bahia Campus Eunápolis.
 
