@@ -145,18 +145,24 @@ O sistema deve ser capaz de gerenciar pessoas. A gestão de pessoas inclui cadas
 O sistema deve possuir uma listagem de pessoas, a qual outras pessoas poderão  buscar e visualizar os dados completos, exceto os dados sensíveis. Deve ser incluido na visualização dos dados os vinculos com portarias e comissões;
 
 \item
+No gerenciamento de pessoas, o sistema deve lidar com dois tipos de perfis:
+usuário e não usuário. Somente pessoas com perfil de usuário terá permissão para gerencias pessoas, portarias e permissões. Dessa forma, o sistema deve possuir um controle de acesso com usuário e senha;
 
 \item
-O sistema deve gerenciar portarias. A gestão de portarias inclui cadastro, edição e exclusão das mesmas. Somente os usuários com perfil de GESTOR é capaz de gerenciar as portarias. O cadastro das portarias deve permitir a inserção dos seguintes dados: Número, Data, Processo SEI (opcional), Resumo (motivação da portaria), Validade (opcional), Observação (informações pertinentes contidas ou não na portaria; opcional), Arquivo (opcional). As portarias podem possuir um relacionamento entre si. Por exemplo, uma portaria pode ser publicada para alterar o conteúdo de uma portaria anterior. Quando houver um relacionamento entre portarias, deve ser possível informar qual é o tipo de relacionamento.
+O sistema deve gerenciar portarias. A gestão de portarias inclui cadastro, edição e exclusão das mesmas. O cadastro das portarias deve permitir a inserção dos seguintes dados: Número, Data, Processo SEI (opcional), Resumo (motivação da portaria), Validade (opcional), Observação (informações pertinentes contidas ou não na portaria; opcional), Arquivo (opcional);
 
 \item
-As portarias cadastradas devem possuir um identificador único composto por um número sequencial e o ano de publicação. (refinar)
+As portarias podem possuir um relacionamento entre si. Por exemplo, uma portaria pode ser publicada para alterar o conteúdo de uma portaria anterior. Quando houver um relacionamento entre portarias, deve ser possível informar qual é o tipo de relacionamento: REVOGAÇÃO, RETIFICAÇÃO, COMPLEMENTAR, ALTERAÇÃO;
 
 \item
-O sistema deve possuir uma listagem das portarias, a qual deve permitir que os usuários de todos os perfis visualizem; ordem por:  data de publicação  e identificador; e pesquise as portarias com os campos de data, identificador e descrição. (melhorar)
+As portarias cadastradas devem possuir um identificador único composto por um número sequencial e o ano de publicação. no fomato [número]/[ano];
+
+\item
+O sistema deve possuir uma listagem das portarias, a qual deve permitir a visualização; o ordenamento por:  data de publicação e identificador; e pesquisar por data, identificador e descrição;
 
 \item
 O sistema deve ser capaz de exportar as portarias cadastradas para o formato de CSV.
+
 \end{enumerate}
 
 \end{document}
