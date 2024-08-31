@@ -1,0 +1,216 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="24.7.8">
+  <diagram name="Página-1" id="c0ky9KlxzgWNIdDqHxNk">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BtgRNjHOx2P2itInw6qk-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-1" target="BtgRNjHOx2P2itInw6qk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-1" target="BtgRNjHOx2P2itInw6qk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-7" value="Precisa cadastrar pessoa?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-8" value="não" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-7" target="BtgRNjHOx2P2itInw6qk-13">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-9" value="sim" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-7" target="BtgRNjHOx2P2itInw6qk-16">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="85" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-10" value="Autenticar no sistema" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="140" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-10" target="BtgRNjHOx2P2itInw6qk-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="targetPoint" />
+            <mxPoint x="230" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-13" value="Precisa cadastrar ou editar comissão?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-14" value="&lt;div&gt;não&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-13" target="BtgRNjHOx2P2itInw6qk-20">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="439.99" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-15" value="sim" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-13" target="BtgRNjHOx2P2itInw6qk-18">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-16" value="Cadastra pessoa" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-16" target="BtgRNjHOx2P2itInw6qk-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-18" value="Cadastra ou edita a comissão" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-18" target="BtgRNjHOx2P2itInw6qk-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-20" value="Cadastra a portaria" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-20" target="BtgRNjHOx2P2itInw6qk-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-23" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="724.9999999999998" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-24" value="Publicação de portaria" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="790" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-25" value="Cadastro de pessoa" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" vertex="1" parent="1">
+          <mxGeometry x="19" y="610" width="790" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-29" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-29" target="BtgRNjHOx2P2itInw6qk-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-31" value="Autentica no sistema" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="720" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-33" value="Abre cadastro de pessoas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-33" target="BtgRNjHOx2P2itInw6qk-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-35" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-31" target="BtgRNjHOx2P2itInw6qk-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="730" as="targetPoint" />
+            <mxPoint x="95" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-36" value="Informa o CPF da pessoas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-37" value="Existe?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="375" y="820" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-38" value="não" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-37" target="BtgRNjHOx2P2itInw6qk-41">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="580" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-41" value="Cadastra dados pessoais" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-41" target="BtgRNjHOx2P2itInw6qk-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-36" target="BtgRNjHOx2P2itInw6qk-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="750" as="targetPoint" />
+            <mxPoint x="320" y="750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="390" y="790" />
+              <mxPoint x="290" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-49" value="Informa a matrícula" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-54" value="Valida CPF" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-54" target="BtgRNjHOx2P2itInw6qk-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-56" value="sim" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-37" target="BtgRNjHOx2P2itInw6qk-70">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="420" y="854.74" as="targetPoint" />
+            <mxPoint x="310" y="1004.74" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-57" value="Existe?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1030" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-58" value="não" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-57">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="670" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-59" value="sim" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.525" y="-22" relative="1" as="geometry">
+            <mxPoint x="430" y="1050" as="targetPoint" />
+            <mxPoint x="510" y="1050" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-49" target="BtgRNjHOx2P2itInw6qk-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="950" as="targetPoint" />
+            <mxPoint x="560" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-62" value="Cadastra dados funcionais" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-63" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-62" target="BtgRNjHOx2P2itInw6qk-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-67" value="Informa que o cadastro já existe" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-70" value="Busca os dados pessoais" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-70" target="BtgRNjHOx2P2itInw6qk-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-72" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BtgRNjHOx2P2itInw6qk-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="BtgRNjHOx2P2itInw6qk-67" target="BtgRNjHOx2P2itInw6qk-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1135" />
+            </Array>
+            <mxPoint x="720" y="1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
